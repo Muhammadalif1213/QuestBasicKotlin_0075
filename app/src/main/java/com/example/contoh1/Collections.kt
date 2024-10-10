@@ -73,5 +73,6 @@ fun ContohMap(){
 
 fun main(){
     println(ContohList())
+    println(ContohSet())
     println(ContohMap())
 }

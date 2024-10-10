@@ -34,7 +34,14 @@ fun conditionalStatement(){
     }
 }
 
+fun Perulangan(){
+    println()
+    println("=== Perulangan ===")
+
+
+}
 
 fun main(){
     conditionalStatement()
+    Perulangan()
 }

@@ -34,6 +34,13 @@ fun ContohList(){
     println(shapesLocked)
 }
 
+fun ContohSet(){
+    println()
+    println("==== Set ===")
+
+
+}
+
 fun ContohMap(){
 
     println()

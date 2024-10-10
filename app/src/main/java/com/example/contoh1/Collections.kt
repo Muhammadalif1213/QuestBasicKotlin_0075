@@ -32,6 +32,9 @@ fun ContohList(){
     //list read-only
     val shapesLocked: List<String> = shape
     println(shapesLocked)
+
+    fun ContohMap(){
+    }
 }
 
 fun main(){

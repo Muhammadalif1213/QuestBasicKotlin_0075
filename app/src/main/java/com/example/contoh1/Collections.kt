@@ -32,11 +32,23 @@ fun ContohList(){
     //list read-only
     val shapesLocked: List<String> = shape
     println(shapesLocked)
+}
 
-    fun ContohMap(){
-    }
+fun ContohMap(){
+
+    println()
+    println("=== Map ===")
+    //map Read-Only
+    val ReadOnlyShape: Map<String,Int> = mapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
+    println(ReadOnlyShape)
+
+    //Map Mutable
+    val shape: MutableMap<String, Int> = mutableMapOf("Circle" to 1, "Square" to 2, "Triangle" to 3)
+    println(shape)
+
 }
 
 fun main(){
     println(ContohList())
+    println(ContohMap())
 }

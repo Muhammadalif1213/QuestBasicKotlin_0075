@@ -27,6 +27,10 @@ fun withDefaultParameter(name:String = "Indra", age: Int){
     println("Hello $name you are $age years old.")
 }
 
+fun withReturn(panjang:Int, Lebar:Int){
+    return println(panjang * Lebar)
+}
+
 fun main(){
     withoutParameter()
     withParameter("John")

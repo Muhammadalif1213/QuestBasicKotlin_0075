@@ -10,3 +10,8 @@ fun withParameter(name: String){
     println("== withParameter ==")
     println("Hello, $name!")
 }
+
+fun main(){
+    withoutParameter()
+    withParameter("John")
+}

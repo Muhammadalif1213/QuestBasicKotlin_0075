@@ -13,7 +13,8 @@ fun nullSafety(){
         println("inferredNonNull is not null")
     }
 
-
+    println(neverNull.length)
+    println(nullable?.length)
 }
 
 fun main(){

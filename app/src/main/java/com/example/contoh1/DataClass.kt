@@ -16,4 +16,8 @@ fun main(){
     //fungsi copy
     val data3 = data.copy()
     println(data3)
+
+    //fungsi copy dan perubahan
+    val data4 = data.copy(email = "sahra@gmail.com")
+    println(data4)
 }

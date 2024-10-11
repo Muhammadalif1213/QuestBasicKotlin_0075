@@ -7,6 +7,12 @@ fun nullSafety(){
 
     nullable = null
 
+    if (neverNull == null){
+        println("inferredNonNull is null")
+    }else{
+        println("inferredNonNull is not null")
+    }
+
 
 }
 

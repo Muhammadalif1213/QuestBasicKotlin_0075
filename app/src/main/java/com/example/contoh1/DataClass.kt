@@ -12,4 +12,8 @@ fun main(){
     //fungsi equal
     val data2 = DataClass(1,"makan@gmail.com")
     println(data == data2)
+
+    //fungsi copy
+    val data3 = data.copy()
+    println(data3)
 }

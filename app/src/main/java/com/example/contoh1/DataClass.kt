@@ -6,5 +6,6 @@ data class DataClass(
 )
 
 fun main(){
-
+    val data = DataClass(1,"indra@gmail.com")
+    println(data)
 }
